@@ -1,0 +1,73 @@
+/* Section 1 */
+
+.s-1 {
+    padding-top: 70px;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h4 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #5863f8;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: ;
+    margin-bottom: 55px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    height: 290px;
+}
+
+textarea, input {
+    background-color: #f8f8f8;
+    border: 2px solid #e8e8e8;
+    padding: 20px;
+    outline: none;
+    caret-color: gray;
+}
+
+textarea {
+    height: 100%;
+    max-width: 720px;
+    width: 100%;
+    resize: none;
+    margin-right: 15px;
+}
+
+input, button {
+    height: 60px;
+    width: 100%;
+}
+
+textarea::placeholder, input::placeholder {
+    color: #cecece;
+}
+
+button {
+    background-color: #5863f8;
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.input-wrapper {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    max-width: 350px;
+    width: 100%;
+}
